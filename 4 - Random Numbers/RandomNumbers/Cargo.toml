@@ -1,0 +1,7 @@
+[package]
+name = "RandomNumbers"
+version = "0.1.0"
+authors = ["riktus"]
+
+[dependencies]
+rand = "0.3.0"
