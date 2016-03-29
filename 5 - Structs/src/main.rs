@@ -1,10 +1,10 @@
-struct human{
+struct Human{
     name: String,
     age: i32,
 }
 
 fn main(){
-    let man = human{
+    let man = Human{
         name: "riktus".to_string(),
         age: 25
     };
@@ -15,7 +15,7 @@ fn main(){
     change_age(26, man);
 }
 
-fn change_age(age: i32, mut target: human){
+fn change_age(age: i32, mut target: Human){
     target.age = age;
 
     println!("");
