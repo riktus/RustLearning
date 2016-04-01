@@ -1,0 +1,6 @@
+[package]
+name = "Trait"
+version = "0.1.0"
+authors = ["riktus <riktus2007@mail.ru>"]
+
+[dependencies]
